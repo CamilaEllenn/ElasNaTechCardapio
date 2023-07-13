@@ -1,0 +1,38 @@
+body{
+    margin: auto;
+    background-color: aliceblue;
+}
+#sobre{
+    text-align: center;
+}
+header{
+    background-color: rgb(199, 209, 107);
+    text-align: center;
+    padding: 1rem;
+    color:white;
+    text-transform: uppercase;
+    font-style: oblique;
+}
+.container{
+    display: flex;
+    gap: 2%;
+    line-height: 50%;
+    align-items: center;
+    margin: 30px 0 30px 350px;
+}
+.container img{
+    max-width: 300px;
+    max-height: 300px;
+}
+img:hover{
+    max-width: 400px;
+    max-height: 400px;
+    border-radius: 5px;
+}
+
+footer{
+    background-color: rgb(199, 209, 107);
+    text-align: center;
+    padding: 1rem;
+    color:rgb(26, 24, 24);
+}
